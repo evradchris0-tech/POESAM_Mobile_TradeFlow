@@ -1,0 +1,38 @@
+name: tradeflow_app
+description: TradeFlow Africa — application mobile fintech pour le commerce intra-africain.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: '>=3.19.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.5.6
+  flutter_dotenv: ^5.1.0
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+  percent_indicator: ^4.2.3
+  timeline_tile: ^2.0.0
+  cached_network_image: ^3.3.1
+  intl: ^0.19.0
+  google_generative_ai: ^0.4.7
+  image_picker: ^1.2.2
+  flutter_markdown: ^0.7.7+1
+  url_launcher: ^6.3.2
+  local_auth: ^3.0.1
+  flutter_secure_storage: ^10.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/logoL.png
+    - .env

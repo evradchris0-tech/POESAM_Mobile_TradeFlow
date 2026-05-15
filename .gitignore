@@ -1,0 +1,38 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.suo
+*.user
+
+# Credentials — never commit
+**/.env
+**/tradeflow-creds.txt
+**/lib/config/supabase_config.dart
+
+# Logs / temp
+*.log
+*.tmp
+*~
+
+# Flutter build artifacts (also covered inside tradeflow_app/.gitignore)
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/pubspec.lock.bak
+
+# Android / iOS local
+**/android/local.properties
+**/android/.gradle/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/ios/Pods/
+**/ios/.symlinks/
